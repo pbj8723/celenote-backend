@@ -26,6 +26,8 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("mysql:mysql-connector-java:8.0.32")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+    implementation("me.paulschwarz:spring-dotenv:3.0.0")
+
 }
 
 tasks.withType<KotlinCompile> {
