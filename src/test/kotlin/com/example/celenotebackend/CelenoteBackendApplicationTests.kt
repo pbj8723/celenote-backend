@@ -9,5 +9,4 @@ class CelenoteBackendApplicationTests {
     @Test
     fun contextLoads() {
     }
-
 }
