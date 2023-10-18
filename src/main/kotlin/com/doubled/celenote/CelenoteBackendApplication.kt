@@ -1,4 +1,4 @@
-package com.example.celenotebackend
+package com.doubled.celenote
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
