@@ -25,5 +25,5 @@ class User(
     @Column
     val email: String,
     @Column
-    val interlock: String
+    val interlock: String,
 ) : BaseEntity()
