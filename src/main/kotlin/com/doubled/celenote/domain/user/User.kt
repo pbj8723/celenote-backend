@@ -7,7 +7,6 @@ import jakarta.persistence.GenerationType
 import jakarta.persistence.Id
 import jakarta.persistence.Column
 
-
 @Entity
 class User(
     @Id
@@ -35,4 +34,4 @@ class User(
     @Column
     val interlock: String
 
-): BaseEntity() {}
+) : BaseEntity()

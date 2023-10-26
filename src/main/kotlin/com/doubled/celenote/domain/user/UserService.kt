@@ -1,4 +1,3 @@
 package com.doubled.celenote.domain.user
 
-class UserService {
-}
+class UserService
