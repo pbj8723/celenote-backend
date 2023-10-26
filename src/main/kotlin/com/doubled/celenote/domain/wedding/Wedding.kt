@@ -11,16 +11,13 @@ import jakarta.persistence.OneToOne
 import java.time.LocalDateTime
 
 @Entity
-class Wedding (
+class Wedding(
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
     var id: Int? = null,
-
-    @OneToOne @JoinColumn(name="user_id")
+    @OneToOne @JoinColumn(name = "user_id")
     var user_id: User,
-
-    @OneToOne @JoinColumn(name="partner_id")
+    @OneToOne @JoinColumn(name = "partner_id")
     var partner_id: User,
-
     @Column var at: LocalDateTime,
     @Column var venue: String,
 )

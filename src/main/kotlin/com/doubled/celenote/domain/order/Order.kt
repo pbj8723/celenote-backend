@@ -11,16 +11,12 @@ import jakarta.persistence.JoinColumn
 import jakarta.persistence.OneToMany
 
 @Entity
-class Order (
+class Order(
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
     var id: Int? = null,
-
     @OneToMany @JoinColumn(name = "product_id")
     var product_id: List<Market>,
-
     @OneToMany @JoinColumn(name = "cust_id")
     var cust_id: List<User>,
-    
     @Column var quantity: Int,
-
 )

@@ -8,14 +8,12 @@ import jakarta.persistence.Id
 import java.time.LocalDateTime
 
 @Entity
-class Market (
+class Market(
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     var id: Int? = null,
-
     @Column var name: String,
     @Column var price: Int,
     @Column var image: String,
     @Column var date: LocalDateTime,
-
 )
