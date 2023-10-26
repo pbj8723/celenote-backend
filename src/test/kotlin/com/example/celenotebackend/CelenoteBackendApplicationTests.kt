@@ -1,4 +1,4 @@
-package com.example.celenotebackend
+package com.doubled.celenotebackend
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
